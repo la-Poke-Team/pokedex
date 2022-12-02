@@ -1,0 +1,33 @@
+/* -------Reset / General------- */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+	background: no-repeat center url(/img/bg.png);
+	background-size: cover;
+	height: 100vh;
+	/* Attention, J'ai mis le body en Grid afin de maintenir le footer en bas =D */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header img{
+	width: 100%;
+}
+
+/* -------Navigation------- */
+.navbar {
+	background-color: #FFCC03;
+}
+
+/* -------Main------- */
+
+
+/* -------Footer------- */
+
